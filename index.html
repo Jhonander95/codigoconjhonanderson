@@ -4,49 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Código con Jhonanderson</title>
 </head>
 <body>
     <header>
         <h1>Código con Jhonanderson</h1>
         <nav>
-            <ol>
+            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blog</a></li>
-            </ol>
+            </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>¿Por qué creé el canal?</h2>
-            <p>
-                <strong>Código con Jhonanderson</strong> es un canal de YouTube que nace de la necesidad de mejorar mi proceso de 
-                aprendizaje. Siempre he creído que la mejor manera de aprender es enseñando a otros, y es por eso 
-                que decidí compartir mis conocimientos y habilidades de programación en este canal.
-                <br><br>
-                Mi objetivo es no solo mejorar mi propia comprensión de los temas de programación, sino también 
-                ayudar a otros a mejorar los suyos. A través de videos instructivos y tutoriales prácticos, 
-                quiero mostrar el proceso de aprendizaje que estoy experimentando, y espero que sea útil para 
-                aquellos que estén buscando mejorar sus habilidades en programación.
-                <br><br>
-                Si eres un principiante en programación o un programador experimentado, espero que mi contenido te 
-                sea útil y que disfrutes aprendiendo conmigo en <strong>Código con Jhonanderson</strong>. ¡Suscríbete y acompáñame 
-                en este emocionante viaje de aprendizaje y descubrimiento en el mundo de la programación!
-            </p>
-            <hr>
-        </section>
-        <section>
+    <div class="container">
+        <main>
+            <section>
+                <img src="assets/img/main.png" alt="Accesorios y computador">
+                <div class="description">
+                    <h2>¿Que es código con Jhonanderson?</h2>
+                    <p>
+                        <strong>Código con Jhonanderson</strong> es un canal de YouTube que nace de la necesidad de mejorar mi proceso de 
+                        aprendizaje. Siempre he creído que la mejor manera de aprender es enseñando a otros, y es por eso 
+                        que decidí compartir mis conocimientos y habilidades de programación en este canal.
+                        <br><br>
+                        Mi objetivo es no solo mejorar mi propia comprensión de los temas de programación, sino también 
+                        ayudar a otros a mejorar los suyos. A través de videos instructivos y tutoriales prácticos, 
+                        quiero mostrar el proceso de aprendizaje que estoy experimentando, y espero que sea útil para 
+                        aquellos que estén buscando mejorar sus habilidades en programación.
+                        <br><br>
+                        Si eres un principiante en programación o un programador experimentado, espero que mi contenido te 
+                        sea útil y que disfrutes aprendiendo conmigo en <strong>Código con Jhonanderson</strong>. ¡Suscríbete y acompáñame 
+                        en este emocionante viaje de aprendizaje y descubrimiento en el mundo de la programación!
+                    </p>
+                </div>
+            </section>
+        </main>
+        <div>
             <h2>Últimos Vídeos</h2>
-            <!--Aquí pondre los ultimos videos del canal -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_GoP8BetGdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/NSE8Hg3g0Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section>
-        <section>
+            <br>
+            <hr>
+            <br> 
+        </div>
+        <div class="section-secundary">
+            <section>
+                <div class="videos">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_GoP8BetGdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NSE8Hg3g0Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+                </div>
+                <div class="videos">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/v4dm5kNUnGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+                </div>
+            </section>
+            <br>
+            <br>
+            <hr>
+            <br>
             <h2>Blog</h2>
+        </div>
+        <section class="container-card" >
+            <div class="card">
+                <img src="assets/img/q.png" alt="Imagen de la publicación">
+                <h3>¿Por que aprender programación?</h3>
+                <p>¿Estas interesado en aprender a programar?
+                    continua leyendo que te voy a dar unas muy buenas razones para hacerlo.
+                </p>
+             </div>
+             <div class="card">
+                <img src="assets/img/html.png" alt="Imagen de la publicación">
+                <h3>HTML</h3>
+                <p>Vamos a conocer el esqueleto, la base sobre la cual se construye cualquier web.</p>
+             </div>
+             <div class="card">
+                <img src="assets/img/q.png" alt="Imagen de la publicación">
+                <h3>CSS</h3>
+                <p>En esta ocación hablaremos sobre como maquillar la web, ya debemos tener
+                    la estructura, ahora debemos hacerle los acabados.
+                </p>
+             </div>
         </section>
-    </main>
+    </div>
     <footer>
-        <p>Derechos reservados para Código con Jhonanderson ®</p>
+        <p>Derechos reservados | By Código con Jhonanderson ®</p>
     </footer>
 </body>
 </html>
